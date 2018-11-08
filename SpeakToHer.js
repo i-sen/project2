@@ -19,7 +19,7 @@ function preload() {
   // loadJSON('https://www.poemist.com/api/v1/randompoems', showWisdom);
 
     $.ajax ({
-      url: "https://www.poemist.com/api/v1/randompoems", 
+      url: "https://cors-anywhere.herokuapp.com/https://www.poemist.com/api/v1/randompoems", 
       type: "GET",
       dataType: "json",
       error: function (err){
