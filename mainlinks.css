@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "myFont";
+    src:url("Fragmentcore.otf");
+}
+
+
+.option1 {
+    position:fixed;
+    bottom:150px;
+    right:535px;
+    height:20px;
+    width:250px;
+    text-align: center;
+    /*background-color:#cf8;*/ 
+    font-size: 30px;
+    color: white;
+    font-family:"myFont";
+}
+
+.option2 {
+    position:fixed;
+    bottom:200px;
+    right:535px;
+    height:20px;
+    width:250px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family:"myFont";
+    /*background-color:#cf8; */
+}
+
+.instructions {
+    position:fixed;
+    bottom:450px;
+    right:300px;
+    height:20px;
+    width:250px;
+    color: white;
+    font-size: 30px;
+    font-family:"myFont";
+    /*background-color:#cf8; */
+}
+
+.about {
+   color: white;
+   font-size: 30px;
+   text-align: center;
+/*   text-align: justify;*/
+   letter-spacing: 3px;
+   text-shadow: 2px 1px white;
+   font-family:"myFont";
+}
+
+h1 {
+   color: white;
+   font-size: 50px;
+   text-align: center;
+/*   text-align: justify;*/
+   letter-spacing: 3px;
+   text-shadow: 2px 1px white;
+   font-family:"myFont";
+}
